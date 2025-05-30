@@ -11,6 +11,11 @@ host_vars/*/vault.yml
 # Inventory files that contain real IPs or usernames
 inventory.ini
 hosts
+inventory
+inventory.yml
+inventory.yaml
+production
+staging
 
 # SSH and auth keys
 *.pem
