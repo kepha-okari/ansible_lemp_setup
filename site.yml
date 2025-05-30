@@ -1,0 +1,9 @@
+- name: Provision LEMP Stack
+  hosts: web
+  become: true
+  roles:
+    - nginx
+    - docker
+    - mysql
+    - php
+    - python
