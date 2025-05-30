@@ -1,0 +1,48 @@
+.env
+.vault_pass.txt
+vault.yml
+
+# Ignore credentials and secrets
+*.vault
+vault.yml
+group_vars/*/vault.yml
+host_vars/*/vault.yml
+
+# Inventory files that contain real IPs or usernames
+inventory.ini
+hosts
+
+# SSH and auth keys
+*.pem
+*.key
+*.crt
+*.pub
+id_rsa
+id_rsa.pub
+.ssh/
+
+# Compiled files
+*.pyc
+__pycache__/
+
+# Logs
+*.log
+*.retry
+
+# Backup files
+*.bak
+*.orig
+*.swp
+*.swo
+*.tmp
+
+# Ansible-generated files
+*.retry
+*.facts
+
+# System or editor-specific
+.DS_Store
+*.vscode/
+.idea/
+*.env
+.env/
