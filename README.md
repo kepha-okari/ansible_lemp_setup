@@ -90,4 +90,5 @@ This Ansible project automates the provisioning of a production-ready LEMP stack
 
 ## License
 
-MIT License. See `LICENSE` file for details.
+This project is licensed under the [MIT License](./LICENSE).  
+See the LICENSE file for full details.
